@@ -23,11 +23,11 @@ int main (int argc, char * argv[]) {
 	printf("Assembling Program...\n");
 	
 	//Initialization for tiny computer components.
-	int DM[10] = { 0 };  	//Data Memory
+	int DM[10] = { 0 };  			//Data Memory
 	int PC = 0;				//Program Counter
 	int MAR;				//Memory Address Register
 	int MDR2;				//Memory Data Register	
-	int accumulator = NULL;		//Accumulator
+	int accumulator = NULL;			//Accumulator
 	char op = NULL;				//operation
 	char addr = NULL;			//address
 	
@@ -37,8 +37,8 @@ int main (int argc, char * argv[]) {
 	char buff[80];
 	
 	//instruction types
-	Instruction IM[MAXPROGRAMSIZE];   //Instruction Memory
-	Instruction MDR;				 //Memory Address Register
+	Instruction IM[MAXPROGRAMSIZE];   		//Instruction Memory
+	Instruction MDR;				//Memory Address Register
 	Instruction IR;					//Instruction Register
 	
 	//Collecting file name from command line 
