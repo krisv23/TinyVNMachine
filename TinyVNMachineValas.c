@@ -1,5 +1,4 @@
 //Kristopher Valas
-//Kr378795
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
