@@ -1,3 +1,5 @@
+//Kristopher Valas
+//Kr378795
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -41,6 +43,10 @@ int main (int argc, char * argv[]) {
 	Instruction IR;					//Instruction Register
 	
 	//Collecting file name from command line 
+	if(argv[1] == NULL){
+		printf("Please provide a file!\n");
+		return 0;
+	}
 	char *name = malloc(strlen(argv[1]) + 1);
 		if (name == NULL){
 			printf("Malloc failed!\n");
