@@ -1,9 +1,13 @@
 # TinyVNMachine
-Simulates a Tiny Von Neumann Machine
+### Simulates a Tiny Von Neumann Machine
 
-This program was built with C. In order to have the machine perform operations, you must pass it a text file that meets the Von Neumann Architecture. I have included this Architecture below.
+### Getting started
+ This program was built with C. In order to have the machine perform operations, you must pass it a text file that meets the Von Neumann Architecture. I have included this Architecture below.
 
 
+### Instruction Set Architecture
+
+```
 Instruction Set Architecture: 
 1  LOAD  -- Loads data from the Data Memory
 2  ADD   -- Addition Function that performs addition on the value in the accumulator with a value specified inside the Data Memory.
@@ -14,11 +18,13 @@ Instruction Set Architecture:
 7  END   -- Terminates Program.
 8  JMP   -- Jumps to the specified operation.
 9  SKIPZ -- Skips the next operation if the accumulator == 0.
+```
 
 
-Below is an example of an input file that subtracts two numbers.
-	Example:
-  
+### Input File example
+Below is an example of an input file that subtracts two numbers. Please make sure input file is a .txt extension.
+	
+ ``` 
   The first number is the operation and the second number is the address. 
 	Input File:
 	    5 5		//IN 5   <-- Input from address 5 (keyboard)
@@ -32,3 +38,4 @@ Below is an example of an input file that subtracts two numbers.
 	    3 0		//STORE 0 <-- Store accumulator into Data Memory at address 0
 	    6 7		//OUT 7   <-- Output to address 7 (monitor)
 	    7 0		//END     <-- Halt program
+```
