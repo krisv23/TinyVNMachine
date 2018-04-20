@@ -5,7 +5,7 @@
  This program was built with C. In order to have the machine perform operations, you must pass it a text file that meets the Von Neumann Architecture. I have included this Architecture below.
 
 
-### Instruction Set Architecture
+## Instruction Set Architecture
 
 ```
 Instruction Set Architecture: 
@@ -21,12 +21,10 @@ Instruction Set Architecture:
 ```
 
 
-### Input File example
+## Input File example
 Below is an example of an input file that subtracts two numbers. Please make sure input file is a .txt extension.
 	
- ``` 
-  The first number is the operation and the second number is the address. 
-	Input File:
+ ```  	
 	    5 5		//IN 5   <-- Input from address 5 (keyboard)
 	    6 7		//OUT 7  <-- Output to address 7 (monitor)
 	    3 0		//STORE 0 <-- Store accumulator into Data Memory at address 0
@@ -39,3 +37,4 @@ Below is an example of an input file that subtracts two numbers. Please make sur
 	    6 7		//OUT 7   <-- Output to address 7 (monitor)
 	    7 0		//END     <-- Halt program
 ```
+Note* - The first number is the operation and the second number is the address.
